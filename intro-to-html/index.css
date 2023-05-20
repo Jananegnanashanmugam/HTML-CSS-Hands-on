@@ -1,0 +1,58 @@
+#btnsubscribe {
+  margin-top: 40px;
+  background-color: #cc0000;
+  color: white;
+  border: none;
+  padding: 10px 16px;
+  margin-left: 10px;
+  text-transform: uppercase;
+  border-radius: 2px;
+  cursor: pointer;
+  transition: opacity 0.15s;
+}
+#btnjoin {
+  background-color: white;
+  color: #065fd4;
+  border: 1px solid #065fd4;
+  padding: 10px 16px;
+  margin-left: 10px;
+  text-transform: uppercase;
+  border-radius: 2px;
+  margin-top: 40px;
+  cursor: pointer;
+  transition: background-color 0.15s, color 0.15s;
+}
+#btntweet {
+  margin-top: 40px;
+  background-color: #1d9bf0;
+  color: white;
+  border-radius: 30px;
+  font-weight: bold;
+  font-size: 15px;
+  padding: 10px 14px;
+  margin-left: 10px;
+  border: none;
+  cursor: pointer;
+  transition: box-shadow 0.15s;
+}
+#btnsubscribe:hover {
+  opacity: 0.6;
+}
+#btnsubscribe:active {
+  opacity: 0.2;
+}
+#btnjoin:hover {
+  background-color: #065fd4;
+  color: white;
+}
+#btnjoin:active {
+  background-color: #065fd4;
+  color: white;
+  opacity: 0.4;
+}
+#btntweet:hover {
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+}
+#btntweet:active {
+  opacity: 0.6;
+}

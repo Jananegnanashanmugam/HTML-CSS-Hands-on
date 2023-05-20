@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PositionFixedExercise</title>
+  </head>
+  <style>
+    .sidebar {
+      background-color: green;
+      position: fixed;
+      bottom: 0;
+      right: 0;
+      width: 170px;
+      top: 0;
+    }
+    .overlay {
+      background-color: rgba(0, 0, 0, 0.5);
+      position: fixed;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .modal {
+      background-color: white;
+      width: 300px;
+      padding-top: 15px;
+      padding-bottom: 15px;
+      padding-left: 15px;
+      padding-right: 15px;
+      border-radius: 5px;
+    }
+
+    .modal-title {
+      font-family: Arial;
+      font-weight: bold;
+      font-size: 24px;
+      margin-bottom: 12px;
+    }
+
+    .modal-content {
+      font-family: Arial;
+      margin-bottom: 12px;
+    }
+  </style>
+  <body>
+    <div class="sidebar">sidebar</div>
+    <div class="overlay">
+      <div class="modal">
+        <div class="modal-title">Modal Title</div>
+        <div class="modal-content">This is a modal</div>
+        <button>Close</button>
+      </div>
+    </div>
+  </body>
+</html>

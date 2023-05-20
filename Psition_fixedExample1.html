@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PositionFixedFbExample</title>
+  </head>
+  <style>
+    .img_pic {
+      width: 50px;
+      height: 50px;
+      border-radius: 25px;
+    }
+    .top-container {
+      border: 1px solid rgb(233, 229, 229);
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .left-section {
+      padding-left: 50px;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-evenly;
+    }
+    .right-section {
+      padding-right: 50px;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-evenly;
+    }
+    .profilepic {
+      padding-right: 20px;
+    }
+    .div-addfriend {
+      padding-right: 20px;
+    }
+    .btnAddFriend,
+    .btnAMessage {
+      padding: 8px;
+      border-radius: 4px;
+    }
+    .btnAddFriend {
+      background-color: rgb(36, 97, 209);
+      font-family: Arial, Helvetica, sans-serif;
+      color: white;
+      border: none;
+    }
+    .btnAMessage {
+      font-weight: bold;
+      font-family: Arial, Helvetica, sans-serif;
+      border: none;
+    }
+    .div-title {
+      font-family: Arial, Helvetica, sans-serif;
+      font-weight: bold;
+    }
+  </style>
+  <body>
+    <div class="top-container">
+      <div class="left-section">
+        <div class="profilepic">
+          <img
+            class="img_pic"
+            src="./Images/cat-551554_1920.jpg"
+            alt="imagepic"
+          />
+        </div>
+        <div class="div-title">Oliver Cat</div>
+      </div>
+      <div class="right-section">
+        <div class="div-addfriend">
+          <button class="btnAddFriend">Add Friend</button>
+        </div>
+        <div class="div-Message">
+          <button class="btnAMessage">Message</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
